@@ -52,6 +52,7 @@ DEALINGS IN THE SOFTWARE.  */
       || defined(__LITTLE_ENDIAN__) \
       || defined(HTS_x86) \
       || defined(__ARMEL__) || defined(__THUMBEL__) || defined(__AARCH64EL__) \
+      || defined(__loongarch__) \
       || defined(_MIPSEL) || defined(__MIPSEL) || defined(__MIPSEL__)
 #        define HTS_LITTLE_ENDIAN
 #    endif
